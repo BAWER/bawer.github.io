@@ -2,41 +2,49 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-     
-        <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="style.css">
+      
         <title>Search</title>
        
     </head>
     <body>
-        <div id="wrapper">
-            <div id="header">
-               <ul>
-                   <li style="width: 80px;"><button>Sign in</button></li>
-                   <li></li>
-                   <li>Image</li>
-                   <li>Gmail</li>
-               </ul>
-            </div>
-            <div id="content">
-                <center>
+        <section>
+            <header>
+                <ul>
+                    <li><a href="https://www.google.com/gmail/about/#">Gmail</a></li>
+                    <li><a href="#">Images</a></li>
+                   
+                    <li><a href="#"><img src="img/bars.png"></a></li>
+                    <li><button>Sing in</button></li>
+                </ul>
+            </header>
+            <div class="main">
                 <img src="img/google.png">
-                <br><br>
-                <input type="text" class="textBox">
-                <br><br>
-                <button class="srch">Google Search</button>
-                <button class="srch">I'm Feeling Lucky</button>
-                </center>
+                <div class="srbox">
+                   <input type="text" class="txtser">
+                   <div class="icon">
+                       <div><img src="img/search.png"></div>
+                       <div><img src="img/mic.png" ></div>
+                </div> 
+                </div>
+                <div class="buttons">
+                    <button>Google search</button>
+                    <button>I'm feeling lucky</button>
+                </div>
+                
             </div>
-
-            <div id="footer">
-                <a href="#" class="bleft">Adverstising</a>
-                <a href="#" class="bleft">Business</a>
-                <a href="#" class="bleft">About</a>
-
-                <a href="#" class="bright">Settings</a>
-                <a href="#" class="bright">terms</a>
-                <a href="#" class="bright">Privacy</a>
-            </div>
-        </div>
+            <footer>
+                <div id="footer">
+                    <a href="https://ads.google.com/intl/en_tr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" class="bleft">Adverstising</a>
+                    <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1" class="bleft">Business</a>
+                    <a href="https://about.google/?utm_source=google-TR&utm_medium=referral&utm_campaign=hp-footer&fg=1" class="bleft">About</a>
+        
+                    <a href="#" class="bright">Settings</a>
+                    <a href="https://policies.google.com/terms?hl=en-TR&fg=1" class="bright">terms</a>
+                    <a href="https://policies.google.com/privacy?hl=en-TR&fg=1" class="bright">Privacy</a>
+                </div>
+            </footer>
+        </section>
+  
     </body>
 </html>
